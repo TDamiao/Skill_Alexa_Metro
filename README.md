@@ -24,9 +24,9 @@ Antes de executar o projeto, você precisa ter:
 
 ```bash
 pip install requests beautifulsoup4 ask-sdk-core
+```
 
-
-Como Usar
+## Como Usar
 
 	1.	Configurar a Skill na AWS:
 	•	Crie uma nova skill na Alexa Developer Console.
@@ -36,9 +36,9 @@ Como Usar
 	•	Use o simulador da Alexa Developer Console ou um dispositivo habilitado para Alexa.
 	•	Diga “Alexa, perguntar o status das linhas de transporte” para obter o status atual.
 
-Estrutura do Código
+## Estrutura do Código
 
-Funções Principais
+## Funções Principais
 
 	•	get_status(): Coleta e processa informações do site da Viamobilidade para extrair o status das linhas.
 	•	CheckStatusIntentHandler: Trata a intenção CheckStatusIntent e fornece a resposta ao usuário.
@@ -46,18 +46,20 @@ Funções Principais
 	•	CancelAndStopIntentHandler: Trata intenções de cancelamento e parada.
 	•	ErrorHandler: Gerencia erros e fornece feedback ao usuário.
 
-Exemplo de Resposta
+## Exemplo de Resposta
 
+```
 Quando um usuário pergunta sobre o status, a skill retorna uma resposta como:
 
 
 "A linha X está com status de Operação Normal. A última atualização foi em 01/10/2024 12:00:00."
 
-Contribuição
+```
+ ## Contribuição
 
 Contribuições são bem-vindas! Se você deseja melhorar este projeto, sinta-se à vontade para abrir um pull request ou criar um issue.
 
-Licença
+## Licença
 
 Este projeto está licenciado sob a MIT License.
 
