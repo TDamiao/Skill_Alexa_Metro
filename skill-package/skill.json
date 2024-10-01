@@ -1,0 +1,29 @@
+{
+    "manifest": {
+      "publishingInformation": {
+        "locales": {
+          "pt-BR": {
+            "summary": "Skill para consultar o status do metrô de São Paulo.",
+            "examplePhrases": [
+              "Alexa, pergunte ao status do metrô qual o status das linhas"
+            ],
+            "name": "Status do Metrô",
+            "description": "Uma skill que informa o status das linhas do metrô de São Paulo."
+          }
+        },
+        "isAvailableWorldwide": true,
+        "testingInstructions": "Diga para a Alexa verificar o status das linhas.",
+        "category": "TRANSPORTATION",
+        "distributionCountries": []
+      },
+      "apis": {
+        "custom": {
+          "endpoint": {
+            "uri": "arn:aws:lambda:REGIÃO:ID_DO_SEU_PERFIL:function:NOME_DA_FUNÇÃO"
+          }
+        }
+      },
+      "manifestVersion": "1.0"
+    }
+  }
+  
